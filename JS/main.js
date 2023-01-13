@@ -37,6 +37,7 @@ buttons.forEach((button) => {
                 screen.innerText = lastOperand;
             };
         };
+        // TODO refaire cette partie
         // console.log('fistOperand:', fistOperand)
         // if (buttonContent === "-" && fistOperand === `` && fistOperand !== `-`) {
         //     fistOperand += buttonContent;
@@ -47,6 +48,9 @@ buttons.forEach((button) => {
         //     fistOperand = ``;
         //     screen.innerText = `0`;
         // };
+
+        // TODO faire une vérification du nb de point
+
         // Ajout d'un opérateur à condition que fistOperand est non vide
         if (fistOperand !== ``) {
             switch (buttonContent) {
