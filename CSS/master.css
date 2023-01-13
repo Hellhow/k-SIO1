@@ -1,4 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
 .screen {
     min-height: 50px;
-    text-align: right;
+    font-family: Orbitron, serif;
+}
+
+section.container {
+    max-width: 300px;
+}
+
+#hero {
+    display: grid;
+}
+
+#hero>* {
+    grid-area: 1 / 1 / 1 / 1;
+}
+
+button,
+.screen {
+    box-shadow: 1px 1px 1px black;
 }

@@ -32,7 +32,7 @@
 
     <!-- SECTION CSS -->
     <!-- ANCHOR CSS Icon -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- ANCHOR CSS reset/normalize -->
     <!-- <link rel="stylesheet" href="css/1_reset.css"> -->
@@ -67,42 +67,45 @@
     <!-- !SECTION Header -->
     <!-- SECTION Main -->
     <main>
-        <section class="container">
-            <div class="row">
-                <h1>K-SIO1</h1>
+        <section class="container border border-dark rounded bg-success mt-1">
+            <div class="row border border-dark rounded-top bg-dark text-bg-danger" id="hero">
+                <h1 class="text-center">K-SIO1</h1>
+                <i class="fa fa-calculator text-end pt-2"></i>
             </div>
             <div class="row p-3">
-                <div class="screen border border-dark"></div>
+                <div
+                    class="screen bg-success-subtle border border-dark rounded d-flex justify-content-end align-items-center">
+                    0</div>
             </div>
             <div class="row p-2">
-                <button class="col m-2">C</button>
-                <button class="col m-2"></button>
-                <button class="col m-2"></button>
-                <button class="col m-2"></button>
+                <button class="col m-2 rounded bg-dark-subtle" value="sqrt">√</button>
+                <button class="col m-2 rounded bg-dark-subtle" value="pow">x²</button>
+                <button class="col m-2 rounded bg-warning" value="CE">CE</button>
+                <button class="col m-2 rounded bg-warning" value="C" id="reset">C</button>
             </div>
             <div class="row p-2">
-                <button class="col m-2">7</button>
-                <button class="col m-2">8</button>
-                <button class="col m-2">9</button>
-                <button class="col m-2">/</button>
+                <button class="col m-2 rounded bg-dark-subtle" value="7">7</button>
+                <button class="col m-2 rounded bg-dark-subtle" value="8">8</button>
+                <button class="col m-2 rounded bg-dark-subtle" value="9">9</button>
+                <button class="col m-2 rounded bg-dark text-light" value="/">/</button>
             </div>
             <div class="row p-2">
-                <button class="col m-2">4</button>
-                <button class="col m-2">5</button>
-                <button class="col m-2">6</button>
-                <button class="col m-2">*</button>
+                <button class="col m-2 rounded bg-dark-subtle" value="4">4</button>
+                <button class="col m-2 rounded bg-dark-subtle" value="5">5</button>
+                <button class="col m-2 rounded bg-dark-subtle" value="6">6</button>
+                <button class="col m-2 rounded bg-dark text-light" value="*">x</button>
             </div>
             <div class="row p-2">
-                <button class="col m-2">1</button>
-                <button class="col m-2">2</button>
-                <button class="col m-2">3</button>
-                <button class="col m-2">-</button>
+                <button class="col m-2 rounded bg-dark-subtle" value="1">1</button>
+                <button class="col m-2 rounded bg-dark-subtle" value="2">2</button>
+                <button class="col m-2 rounded bg-dark-subtle" value="3">3</button>
+                <button class="col m-2 rounded bg-dark text-light" value="-">-</button>
             </div>
             <div class="row p-2">
-                <button class="col m-2">.</button>
-                <button class="col m-2">0</button>
-                <button class="col m-2">=</button>
-                <button class="col m-2">+</button>
+                <button class="col m-2 rounded bg-dark-subtle" value=".">.</button>
+                <button class="col m-2 rounded bg-dark-subtle" value="0">0</button>
+                <button class="col m-2 rounded bg-info" value="=">=</button>
+                <button class="col m-2 rounded bg-dark text-light" value="+">+</button>
             </div>
             <div class="row">
                 <div class="history"></div>
